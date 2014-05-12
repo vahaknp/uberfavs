@@ -1,0 +1,30 @@
+#map_canvas{
+    width: 100%;
+    padding-bottom: 30%;
+    margin-bottom: 10px;
+}
+
+#navtop{
+    margin-bottom: 0;
+}
+
+#geocomplete{
+    width: 400px;
+}
+
+.container-fluid{
+    padding: 0;
+}
+
+.favoriteContainer{
+    border-style: solid;
+    border-color: #B0B0B0 ;
+    border-width: 1px;
+    border-radius: 20px;
+    margin: 5px;
+    text-align: center;
+    height: 150px;
+    background-color: #F0F0F0;
+    color:#707070;
+    font-family: 'Lato', sans-serif;
+}

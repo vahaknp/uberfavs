@@ -6,7 +6,7 @@ from flask import Flask, render_template, url_for, json, request
 
 app = Flask(__name__)
 client = MongoClient('localhost', 27017)
-favorites = client['demo']['favorites']
+favorites = client['uber']['favorites']
 
 def json_load(data):
     return json.loads(data, object_hook=json_util.object_hook)
